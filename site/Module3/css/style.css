@@ -1,0 +1,161 @@
+/** Header **/
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #f7d9bb;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.navbar-header
+{
+ border:0;
+  height:75px;
+  border-radius: 0;
+}
+
+.navbar-brand
+{
+	padding-top:15px;
+
+	
+}
+
+.navbar-brand a
+{
+	font-family:  'Lora', serif;
+	color: #8FBC8F;
+	font-size:3em;
+	text-transform:uppercase;
+	text-shadow: 1px 1px 1px #222;
+	margin-top:0;
+	margin-bottom:0;
+	margin-left:20px;
+	line-height:0.7;
+
+}
+
+.navbar-brand  a:hover , .navbar-brand a:focus{
+		text-decoration:none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  font-weight:bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #dc559f;
+ background-color:#dfd;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 10px;
+}
+
+.navbar li a{
+ line-height:0;
+ border: 2px solid #951C49;
+ margin-top:4px;
+}
+
+
+/* Body*/
+.menu
+{
+	font-size:175%;
+	text-align:center;
+	font-weight:bolder;
+	margin:5px 0px 5px;
+	color: #000;
+	text-shadow:1px 1px 1px #222;
+
+}
+
+.content1
+{
+	position:relative;
+	margin: 10px 15px ;
+}
+.content2
+{
+	position:relative;
+	margin: 10px 10px 10px 15px  ;
+}
+.content3
+{
+	position:relative;
+	margin: 10px 15px 10px 10px ;
+}
+.menutitle
+{
+	font-size:125%;
+	position:absolute;
+	top: 0;
+	right: 33.3%;
+	border: 1.5px solid black;
+	text-align: center;
+	width:36%;
+	height:30px;
+}
+p
+{
+	background-color: #ae30e8;
+	border: 3px solid black;
+	padding: 25px;
+}
+
+#chicken{
+	background-color: #ffccdd;
+	font-weight: bold;
+}
+#beef{
+	background-color: #b93c3b;
+	color: white;
+	font-weight: bold;
+}
+#sushi{
+	background-color: #e6e600;
+	font-weight: bold;
+}
+.row
+{
+	width:97%;
+	margin:auto;
+}
+
+/********** For Laptops **********/
+@media (min-width: 992px)
+{
+
+}
+/********** For Tablets **********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+}
+/********** For Mobile **********/
+@media (max-width: 767px)
+{ .navbar-brand a
+	{
+		font-size:5vw;
+	}
+	.menu
+{
+	margin:-50px 0px 0px;
+
+}
+.visible-xs
+{
+	font-size:20px;
+	padding: 5px;
+}
+}
